@@ -19,3 +19,9 @@
 #9. create a new column with (Phylum - Genus)
 
 #10 claculate the overlap of genera between the two strains using the function "intersect"
+
+# 11 - create stack bar plots of your isolates uwing the following formula:
+#ggplots needs to have a colum for values in x and values in y. 
+#Additionally you can assign colors to another categorical/discrete variable
+ggplot(???, aes(fill=???, y=???, x=???) + 
+  geom_bar(position="stack", stat="identity")
