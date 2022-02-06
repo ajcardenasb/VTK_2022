@@ -1,14 +1,21 @@
+
 #1. set your working directory using the "setwd" function
 
-#2. load required libraries using the "library" function
+#2. load dplyr and reshape2 libraries using the "library" function
 
-#3. import and inspect data using the 
+#3. import and inspect data using the read.table function
 
+#4. filter dataframe to keep only strains classified as Vibrios 
 
-#4. filter dataframe to keep only individuals who have banana as their favorite fruit
-#5. filter dataframe to keep only individuals older than 50
-#6. calculate the average age of per favorite holiday
-#7. calculate the total number of pets per fruit
-#8. create a new column with the structure "ID - fruit - holiday"
-#9. replace mango by blueberry
-#10. create a new column with young/old (young= < 50)
+#5. create a new column with the strain 
+
+#6 filter dataframe to keep only strains isolated from H2, without using subset
+
+#7 calculate the frecuencies per Genus per strain
+
+#8. calculate the total number of different species per strain
+#hint use the unique command to remove duplicates (will remove rows that with ALL identical values)
+
+#9. create a new column with (Phylum - Genus)
+
+#10 claculate the overlap of genera between the two strains using the function "intersect"
