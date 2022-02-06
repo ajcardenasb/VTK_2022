@@ -1,7 +1,7 @@
 
 #1. set your working directory using the "setwd" function
 
-#2. load dplyr and reshape2 libraries using the "library" function
+#2. load ggplot2, dplyr and reshape2 libraries using the "library" function
 
 #3. import and inspect data using the read.table function
 
