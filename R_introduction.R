@@ -5,7 +5,7 @@
 
 #3. import and inspect data using the read.table function
 
-#4. filter dataframe to keep only strains classified as Vibrios 
+#4. filter dataframe to keep only Vibrios 
 
 #5. create a new column with the strain 
 
