@@ -75,4 +75,3 @@ ggplot(FOO3_counts, aes(x=Treatment, y=sqrt_counts, fill=Treatment)) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"))+
   theme_bw() + facet_grid(~Temperature) + scale_fill_manual(values=P3) 
-
