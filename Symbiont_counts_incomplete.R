@@ -41,7 +41,7 @@ pairwise.t.test(h2_native$sqrt_counts,h2_native$Temperature, p.adj = "fdr")
 #plotting
 #defining color palette values
 P4<-c("#2E33D1", "#FFEE32","#D37D47", "#F43535") #27, 29, 32, 34
-P3<-c("#6a994e", "#4ea8de","#bc4749")
+P3<-c("#C3BF6D", "#4ea8de","#bc4749")
 
 
 #plots by temperature
