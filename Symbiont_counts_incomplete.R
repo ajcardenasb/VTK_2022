@@ -59,8 +59,7 @@ ggplot(FOO3_counts, aes(x=Temperature, y=sqrt_counts, fill=Temperature)) +
 
 
 #t-tests multiple comparisons between treeatments
-h2_30=subset(input, Strain == "H2" & Temperature== "30" & !is.na(input$sqrt_counts))
-pairwise.t.test(h2_30$sqrt_counts, h2_30$Treatment, p.adj = "fdr")
+?????
 
 #plots by treatment
 ggplot(H2_counts, aes(x=Treatment, y=sqrt_counts, fill=Treatment)) +
@@ -75,3 +74,4 @@ ggplot(FOO3_counts, aes(x=Treatment, y=sqrt_counts, fill=Treatment)) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"))+
   theme_bw() + facet_grid(~Temperature) + scale_fill_manual(values=P3) 
+
