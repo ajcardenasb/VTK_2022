@@ -59,7 +59,7 @@ ggplot(???, aes(x=???, y=???, fill =???)) +
 #Overall anova.
 ???
 
-#t-tests multiple comparisons between temperatures
+#t-tests multiple comparisons between treatments
 ???
   
 #######################
