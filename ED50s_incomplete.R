@@ -1,7 +1,3 @@
-
-setwd("~/Documents/Bioinformatics_scripts/R_scripts/VTK/VTK_2022/")
-
-#library(car)
 library(drc)
 library(tidyr)
 library(dplyr)
